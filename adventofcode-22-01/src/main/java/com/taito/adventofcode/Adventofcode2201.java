@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 public class Adventofcode2201 {
 
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("T:\\Projects\\taitouotila\\adventofcode-22\\material\\1.txt");
+        File file = new File("..\\.\\.\\material\\1.txt");
         Scanner scan = new Scanner(file);
 
         ArrayList<Integer> sums = new ArrayList<>();

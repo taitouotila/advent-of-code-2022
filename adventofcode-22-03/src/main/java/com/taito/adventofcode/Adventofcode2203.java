@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Adventofcode2203 {
 
     public static void firstPart() throws FileNotFoundException {
-        File file = new File("T:\\Projects\\taitouotila\\adventofcode-22\\material\\3.txt");
+        File file = new File("..\\.\\.\\material\\3.txt");
         Scanner scan = new Scanner(file);
 
         String alphabet = ".abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -54,7 +54,7 @@ public class Adventofcode2203 {
     }
 
     public static void secondPart() throws FileNotFoundException {
-        File file = new File("T:\\Projects\\taitouotila\\adventofcode-22\\material\\3.txt");
+        File file = new File("..\\.\\.\\material\\3.txt");
         Scanner scan = new Scanner(file);
 
         String alphabet = ".abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";

@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Adventofcode2202 {
 
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("T:\\Projects\\taitouotila\\adventofcode-22\\material\\2.txt");
+        File file = new File("..\\.\\.\\material\\2.txt");
         Scanner scan = new Scanner(file);
         int score = 0;
         while (scan.hasNextLine()) {
